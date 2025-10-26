@@ -1,2 +1,21 @@
-# CS_340
-CS 340 Client/Server Development
+# CS_340 Client/Server Development
+
+### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+  To keep my programs flexible and easy for other coders to digest and work with, I focus on developing small chunks of core functionality. For example, the Python module I wrote for this course has four functions to create, read, update, and delete data in a MongoDB database. It is clear from the module's name what the module's intent is, and any other details I have extensively commented on in the code or documented in my report. By developing iteratively and incrementally, I create reusable pieces of functionality that can be extended or combined with other modules for larger endeavors. The Jupyter notebook included showcases this by using the simple CRUD module in a full web-based data-driven application. The advantage of working this way is that I can revisit something I wrote years later and quickly understand its intent and function. Additionally, I always have a large backlog of tiny pieces of functionality that I can then pull from to develop new tools and software.
+
+---
+
+### How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+I think my first step to any problem-solving endeavor is to understand the "why" behind the problem. What is it that the client wishes to achieve with this software, and to what extent do certain features have over others? After gaining a general understanding of the problem in this big picture manner, I begin reading the client's proposed requirements. As I read through, I always try to link each requirement to what it aims to fulfill in the larger, more abstract problem space. By doing this, I can prioritize my time and effort to meet the most important requirements. For instance, in this project, the client requested a sophisticated data dashboard with live-updating graphs for interpreting the underlying data. However, they also requested that their logo be placed somewhere in the application. By following my prioritized problem-solving approach, I ensured I spent the bulk of my time creating the dashboard and validating the data. After the difficult segments were all ironed out, it was extremely easy to spend some time adding a logo and really making the dashboard look inviting and intuitive to use.
+ 
+I find I don't deviate from this approach too often in my other coursework. The only thing that truly changes is what my focus is on. In this course, the need to be efficient with database queries and to understand the data format was paramount. In some of my other courses, there was only a little data, and I had to do a lot of computations to manipulate it.
+
+---
+
+### What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer Scientists' main role is to be flexible problem solvers who utilize computers to their full capacity when seeking solutions. In an effort to do this effectively and efficiently, a lot of time is spent on tasks such as code organization, documentation, intelligent code segmentation, and communication of ideas. The reason all of these skills matter is that most experts with deep knowledge in their field realize that their processes and work can be made more efficient with computers, but lack the skill set to implement easily maintainable solutions. A big company like Grazioso Salvare is a perfect example of this, as they have the knowledge and even partners with abundant data. However, they have not invested time in digitizing and developing software solutions to improve data visualization and enable more effective action based on all this information. 
+
+---
